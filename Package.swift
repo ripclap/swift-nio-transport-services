@@ -37,8 +37,8 @@ let package = Package(
         .library(name: "NIOTransportServices", targets: ["NIOTransportServices"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-nio.git", from: "2.83.0"),
-        .package(url: "https://github.com/apple/swift-atomics.git", from: "1.0.2"),
+        .package(url: "https://github.com/ripclap/swift-nio.git", from: "2.83.0"),
+        .package(url: "https://github.com/ripclap/swift-atomics.git", from: "1.0.2"),
     ],
     targets: [
         .target(
